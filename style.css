@@ -12,6 +12,7 @@ header {
   width: 80%;
   padding: 0;
   background-color: #404040;
+  box-shadow: 0px 5px 10px #202020;
   border-radius: 15px;
   text-align: center;
 }
