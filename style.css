@@ -4,6 +4,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-color: #303030;
   color: #efefef;
   font-family: 'Noto Sans JP', sans-serif;
@@ -17,6 +18,19 @@ header {
   text-align: center;
 }
 header h1 {
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: .25em;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: .25em;
+}
+.main {
+  width: 79%;
+  margin: 10px;
+  padding: 10px;
+  background-color: #404040;
+  box-shadow: 0px 5px 10px #202020;
+  border-radius: 15px;
+  text-align: center;
+  color: inherit;
+}
+.main:hover {
+    background-color: #609060;
 }
