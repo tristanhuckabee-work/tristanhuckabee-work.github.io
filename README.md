@@ -1,2 +1,2 @@
 # tristanhuckabee-work.github.io
-It's just a static website that has a download link for my resume (which has not been uploaded yet)
+A portfolio website that shows 3 projects I've worked on with links to both the githubs and the demo sites, [Live Link](https://tristanhuckabee-work.github.io/).
