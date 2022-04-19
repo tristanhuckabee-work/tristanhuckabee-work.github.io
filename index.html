@@ -1,26 +1,117 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="description" content="Professional portfolio of Tristan Huckabee">
-  <meta name="keywords" content="tristan, huckabee, Tristan, Huckabee, software, engineer, programmer, portfolio">
-  <meta name="author" content="Tristan Huckabee">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tristan Huckabee</title>
+    <link rel="icon" type="image/svg" href="./icon.svg">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://kit.fontawesome.com/ac20bc98b6.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <a href="#top" class="to-top">
+      <i class="fas fa-angle-up fa-2x"></i>
+    </a>
 
-  <link rel="stylesheet" href="style.css">
-  
-  <title>Tristan Huckabee</title>
-</head>
-<body>
-  <header>
-    <h1>TRISTAN HUCKABEE</h1>
-    <p>Software Engineer (kinda)</p>
-  </header>
-  <a href="resume.pdf" download class="main">
-    <i class="far fa-arrow-alt-circle-down fa-4x"></i>
-  </a>
-  <p>DOWNLOAD MY RESUME</p>
-  
-  <script src="https://kit.fontawesome.com/c58d75d3be.js" crossorigin="anonymous"></script>
-</body>
+    <header id="top">
+      <h1>Tristan Huckabee</h1>
+      <div class="personal-links">
+        <a href="https://github.com/tristanhuckabee-work" target="_blank">
+          <i class="fab fa-github-square fa-2x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/tristan-huckabee-60402122a/" target="_blank">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+        <a href="https://angel.co/u/tristan-huckabee" target="_blank">
+          <i class="fab fa-angellist fa-2x"></i>
+        </a>
+        <a href="./resume" download>
+          <h2>RESUME</h2>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <h2>Projects</h2>
+      <div class="project-container" id="project">
+        <div class="project">
+          <div class="project-image first">
+            <h3>Vinyl</h3>
+          </div>
+          <div class="project-links">
+            <a href="https://vinyl-application.herokuapp.com/" target="_blank">DEMO</a>
+            <a href="https://github.com/tristanhuckabee-work/Medium-GP-Clone" target="_blank">CODE</a>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-image second">
+            <h3>BeatDown</h3>
+          </div>
+          <div class="project-links">
+            <a href="https://beat-down.herokuapp.com/" target="_blank">DEMO</a>
+            <a href="https://github.com/tristanhuckabee-work/BeatDown" target="_blank">CODE</a>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-image third">
+            <h3>Project 3</h3>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank">DEMO</a>
+            <a href="#" target="_blank">CODE</a>
+          </div>
+        </div>
+      </div>
+      
+      <div id="education">
+        <h2>Education</h2>
+        <div class="education">
+          <div class="education-info">
+            <div class="left">
+              <img src="./aalogo.png" alt="App Academy Logo">
+              <h3>App Academy</h3>
+            </div>
+            <p>Dec 2022 - Current</p>
+          </div>
+          <div class="education-desc">
+            <ul>
+              <li>1,000+ hour immersive full stack software engineering program with less than 3% acceptance rate.</li>
+              <li>Built and deployed 4 full stack web applications.</li>
+              <li>Experienced hundreds of hours of pair programming.</li>
+            </ul>
+            <div class="tech">
+              <i class="fab fa-js-square fa-2x"></i>
+              <i class="fab fa-react fa-2x"></i>
+              <i class="fab fa-python fa-2x"></i>
+              <i class="fab fa-node-js fa-2x"></i>
+              <i class="fab fa-html5 fa-2x"></i>
+              <i class="fab fa-css3 fa-2x"></i>
+              <i class="fab fa-github-square fa-2x"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="employment">
+        <h2>Employment</h2>
+        <div class="education">
+          <div class="education-info">
+            <div class="left">
+              <img src="./securitaslogo.jpg" alt="Securitas Logo" style="border-radius: 50%">
+              <h3>Securitas Security Services - Security Supervisor</h3>
+            </div>
+            <p>Aug 2013 - Dec 2022</p>
+          </div>
+          <div class="education-desc">
+            <ul>
+              <li>Coordinated with clients, law enforcement officials, corporate, and sub-contractors to establish and maintain facility security.</li>
+              <li>Maintained records of machine operations, personnel movements, and employee schedules through use of various proprietary softwares.</li>
+              <li>Acted as dispatch for international companies related to healthcare and aviation.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
