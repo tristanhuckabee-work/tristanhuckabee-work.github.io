@@ -67,9 +67,9 @@ main {
   padding: 10px;
   width: 80%;
 }
-.first { background-image: url('./vinylScreenshot.png') }
-.second { background-image: url('./beatDownScreenshot.png') }
-.third { background-image: url('') }
+.first { background-image: url('./images/vinylScreenshot.png') }
+.second { background-image: url('./images/beatDownScreenshot.png') }
+.third { background-image: url('./images/xxx.png') }
 .project-links {
   align-items: center;
   background-color: #fff;
@@ -92,6 +92,7 @@ main {
   background-color: #fff;
   padding: 0 10px 10px 10px;
   border-radius: 5px;
+  margin-bottom: 5px;
 }
 .education-info {
   align-items: center;
