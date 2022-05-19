@@ -124,6 +124,9 @@ main {
 .education-info img { height: 40px }
 .education-info h3 { font-size: 1.5em }
 .education-info ul { list-style: none }
+.uta img {
+  border-radius: 50%;
+}
 
 /* ------------------------------------------------------------------------- */
 @media screen and (max-width: 1000px) {
@@ -139,6 +142,10 @@ main {
     border-radius: 0;
   }
   .project-links { border-radius: 0 }
+  .project-links a {
+    text-align:center;
+    width: 40%;
+  }
   .education { border-radius: 0 }
   .to-top {
     display:block;
