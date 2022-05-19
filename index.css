@@ -68,7 +68,7 @@ main {
   padding: 10px;
   width: 80%;
 }
-.first { background-image: url('./images/solderScreenshot.png') }
+.first { background-image: url('./images/solderScreenshot.PNG') }
 .second { background-image: url('./images/beatDownScreenshot.png') }
 .third { background-image: url('./images/strifeScreenshot.png') }
 .project-links {
