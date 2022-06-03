@@ -52,12 +52,16 @@ main {
   margin: 0 20%;
 }
 .project-container {
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  /* align-items: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; */
   padding-bottom: 5px;
 }
-.project { width: 30% }
+.project { width: 100% }
 .project-image {
   align-items: center;
   background-color: #fff;
@@ -80,6 +84,7 @@ main {
 .first { background-image: url('./images/solderScreenshot.png') }
 .second { background-image: url('./images/beatDownScreenshot.png') }
 .third { background-image: url('./images/strifeScreenshot.png') }
+.fourth { background-image: url('/images/vinylScreenshot.png');}
 .project-links {
   align-items: center;
   background-color: #fff;
