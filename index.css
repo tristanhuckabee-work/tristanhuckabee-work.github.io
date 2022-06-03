@@ -147,6 +147,7 @@ main {
   main { margin: 0 }
   .project-container {
     align-items: center;
+    display: flex;
     flex-direction: column;
     width: 100%;
   }
