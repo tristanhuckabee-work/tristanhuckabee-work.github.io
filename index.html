@@ -13,10 +13,117 @@
 
 <body>
   <header>
+    <div class="header-left">
+      <h1>Tristan <span class="pop">Huckabee</span></h1>
+      <p>Software Engineer</p>
+    </div>
+    <!-- <nav>
+      <a href="#projects">Projects</a>
+      <a href="#employment">Employment</a>
+      <a href="#education">Education</a>
+    </nav> -->
+    <div class="header-right">
+      <a href="https://github.com/tristanhuckabee-work" target="_blank">
+        <i class="fab fa-github-square fa-2x"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/tristan-huckabee-60402122a/" target="_blank">
+        <i class="fab fa-linkedin fa-2x"></i>
+      </a>
+      <a href="./Huckabee_Tristan_Resume.pdf" download>
+        <h2>RESUME</h2>
+      </a>
+    </div>
+  </header>
+  <main>
+    <section id="about-me">
+      <h2>About Me</h2>
+      <div class="positions">
+        <p>My name is Tristan Huckabee and I'm a software enginner with an alternative education.</p>
+        <p>I'm versed in HTML, CSS, JavaScript, Python, React, Redux, Flask, Express and SQL. </p>
+      </div>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="positions">
+        <div class="position">
+          <span>
+            <h3>cityPop</h3>
+            <p>A website for uploading and sharing music.</p>
+          </span>
+          <span class="project">
+            <a href="https://city-pop.onrender.com/" target="_blank">LIVE SITE</a>
+            <a href="https://github.com/tristanhuckabee-work/city-pop" target="_blank">GITHUB</a>
+          </span>
+        </div>
+        <div class="position">
+          <span>
+            <h3>To Be Determined</h3>
+            <p>To Be Determined</p>
+          </span>
+          <span class="project">
+            <a href="" target="_blank">LIVE SITE</a>
+            <a href="" target="_blank">GITHUB</a>
+          </span>
+        </div>
+        <div class="position">
+          <span>
+            <h3>To Be Determined</h3>
+            <p>To Be Determined</p>
+          </span>
+          <span class="project">
+            <a href="" target="_blank">LIVE SITE</a>
+            <a href="" target="_blank">GITHUB</a>
+          </span>
+        </div>
+      </div>
+    </section>
+    <section id="employment">
+      <h2>Employment</h2>
+      <p>Before becoming an SE, and teaching adults how to program, I was working as a physical security officer.</p>
+      <div class="positions">
+        <div class="position">
+          <span>
+            <h3>App Academy</h3>
+            <p>Module Instructor</p>
+          </span>
+          <p>2023 - CURRENT</p>
+        </div>
+        <div class="position">
+          <span>
+            <h3>Securitas Security Services</h3>
+            <p>Security Supervisor</p>
+          </span>
+          <p>2014 - 2022</p>
+        </div>
+      </div>
+    </section>
+    <section id="education">
+      <h2>Education</h2>
+      <p>I have completed a coding bootcamp and am currently working towards a degree in Computer Science.</p>
+      <div class="positions">
+        <div class="position">
+          <span>
+            <h3>Strayer University</h3>
+            <p>BSIT : Concentration in Software Engineering with a Cybersecurity</p>
+          </span>
+          <p>EXP 2024 Q4</p>
+        </div>
+        <div class="position">
+          <span>
+            <h3>App Academy</h3>
+            <p>Software Engineering Bootcamp</p>
+          </span>
+          <p>2022</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- <header>
     <nav>
       <h1>Tristan Huckabee</h1>
       <ul class="page-links">
-        <li id="projects-link" class="current"><a href="#projects">Projects</a></li>
+        <li id="home-link" class="current"><a href="#projects">Home</a></li>
+        <li id="projects-link"><a href="#projects">Projects</a></li>
         <li id="employment-link"><a href="#employment">Employment</a></li>
         <li id="education-link"><a href="#education">Education</a></li>
       </ul>
@@ -34,93 +141,89 @@
     </div>
   </header>
   <main>
-    <div class="project-container" id="project-container">
+    <div class="about-me" id="about-me">
+      hello
+    </div>
+    <div class=" hidden project-container" id="project-container">
       <h2>Current</h2>
-      <div id="current-projects">
-        <div class="current-project">
-          <div class="project-details">
-            <img src="./images/citypop_screenshot.PNG" alt="screenshot from citypop project">
-            <div class="project-links">
-              <a href="https://city-pop.onrender.com/" target="_blank">LIVE SITE</a>
-              <a href="https://github.com/tristanhuckabee-work/city-pop" target="_blank">GITHUB</a>
-            </div>
+      <div class="projects">
+        <div class="project curr">
+          <div class="project-links">
+            <a href="https://city-pop.onrender.com/" target="_blank">LIVE SITE</a>
+            <a href="https://github.com/tristanhuckabee-work/city-pop" target="_blank">GITHUB</a>
           </div>
           <div class="project-description">
-            <h3>citypop</h3>
+            <div class="project-title">
+              <h3>cityPop</h3>
+              <p>2024</p>
+            </div>
             <div class="summary">
-              citypop is a website for sharing music and interacting with musicians or your fanbase! Built with a SQLite3 Database, Flask Backend, and React Frontend.
-            </div>
-            <div class="tech-stack">
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-plain-wordmark.svg"
-                alt="sqlite3" width="40" height="40">
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original-wordmark.svg"
-                alt="express" width="40" height="40">
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
-                alt="react" width="40" height="40">
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
-                alt="nodejs" width="40" height="40">
-            </div>
-          </div>
-        </div>
-        <div class="current-project">
-          <div class="project-details">
-            <img src="./images/citypop_screenshot.PNG" alt="screenshot from citypop project">
-            <div class="project-links">
-              <a href="" target="_blank">LIVE SITE</a>
-              <a href="" target="_blank">GITHUB</a>
-            </div>
-          </div>
-          <div class="project-description">
-            <h3>Eris Messenger</h3>
-            <div class="summary">
-              Eris Messenger is a website for sending message between friends on servers and channels! Built with a SQLite3 Database, Express Backend, and React Frontend.
-            </div>
-            <div class="tech-stack">
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-plain-wordmark.svg"
-                alt="sqlite3" width="40" height="40">
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
-                alt="express" width="40" height="40">
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
-                alt="react" width="40" height="40">
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
-                alt="nodejs" width="40" height="40">
-            </div>
-          </div>
-        </div>
-        <div class="current-project">
-          <div class="project-details">
-            <img src="./images/citypop_screenshot.PNG" alt="screenshot from citypop project">
-            <div class="project-links">
-              <a href="" target="_blank">LIVE SITE</a>
-              <a href="" target="_blank">GITHUB</a>
-            </div>
-          </div>
-          <div class="project-description">
-            <h3>Mint TT</h3>
-            <div class="summary">
-              Mint TT is a website for tracking project tickets! Built with a Mongo Database, Flask Backend, and React Frontend.
-            </div>
-            <div class="tech-stack">
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-plain-wordmark.svg"
-                alt="sqlite3" width="40" height="40">
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
-                alt="express" width="40" height="40">
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
-                alt="react" width="40" height="40">
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
-                alt="nodejs" width="40" height="40">
+              A website for sharing music and interacting with musicians or your fanbase! Built with a
+              SQLite3, Flask, and React.js.
             </div>
           </div>
         </div>
       </div>
       <h2>The Archives</h2>
-      <div id="past-projects">
-
+      <div class="projects past">
+        <div class="project">
+          <div class="project-links">
+            <a href="https://github.com/tristanhuckabee-work/Solder" target="_blank">GITHUB</a>
+          </div>
+          <div class="project-description">
+            <div class="project-title">
+              <h3>Solder</h3>
+              <p>2023</p>
+            </div>
+            <div class="summary">
+              An e-commerce for selling and buying used electronics. Built with PostgreSQL, Flask, and React.js.
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-links">
+            <a href="https://github.com/mendezangel/discord-clone" target="_blank">GITHUB</a>
+          </div>
+          <div class="project-description">
+            <div class="project-title">
+              <h3>Strife</h3>
+              <p>2023</p>
+            </div>
+            <div class="summary">
+              <p>A website for chatting with friends using servers and channels, based on Discord. Built with PostgreSQL, Flask, and React.js.</p>
+              <p>Built collaboratively with a team of 4.</p>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-links">
+            <a href="https://github.com/tristanhuckabee-work/BeatDown" target="_blank">GITHUB</a>
+          </div>
+          <div class="project-description">
+            <div class="project-title">
+              <h3>BeatDown</h3>
+              <p>2023</p>
+            </div>
+            <div class="summary">
+              A website for sharing and listening to music, based on Soundcloud. Built with PostgreSQL, Express.js, and React.js.
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-links">
+            <a href="https://github.com/tristanhuckabee-work/Medium-GP-Clone" target="_blank">GITHUB</a>
+          </div>
+          <div class="project-description">
+            <div class="project-title">
+              <h3>Vinyl</h3>
+              <p>2023</p>
+            </div>
+            <div class="summary">
+              <p>A website for blog-posts about music, based on Medium. Built with PostgreSQL, Express.js, and Pug Templates.</p>
+              <p>Built Collaboratively with a team of 4.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="hidden employment-container" id="employment-container">
@@ -199,8 +302,8 @@
           </div>
         </div>
       </div>
-    </div> 
-  </main>
+    </div>
+  </main> -->
 </body>
 
 <script type="module" src="index.js"></script>
