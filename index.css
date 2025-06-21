@@ -8,7 +8,7 @@
 
 body {
   background-color: #eee;
-  /* color: #ccc; */
+  color: black;
   font-family: 'Raleway', sans-serif;
 }
 main {
@@ -22,7 +22,7 @@ main {
 /* HEADER */
 header {
   align-items: center;
-  background-color: #fff;
+  background-color: white;
   border-bottom: 1px solid black;
   display: flex;
   gap: 10px;
@@ -55,7 +55,7 @@ nav a:hover {
   border-right: 1px solid black;
   border-left: 1px solid black;
   border-radius: 5px 5px 0 0;
-  background-color: #ddd;
+  background-color: white;
   color: red;
   top: 1px;
 }
@@ -73,12 +73,13 @@ nav a:hover {
 .positions {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 10px;
   margin: 10px 0;
 }
 .position {
   background-color: #fff;
   border-radius: 5px;
+  /* box-shadow: 0 0 5px #999; */
   align-items: flex-start;
   display: flex;
   justify-content: space-between;
@@ -93,7 +94,8 @@ nav a:hover {
   width: 20%;
 }
 .project a {
-  border: 2px solid black;
+  /* border: 2px solid black; */
+  box-shadow: 0 0 5px #999;
   border-radius: 5px;
   color: black;
   font-weight: bold;
@@ -103,7 +105,8 @@ nav a:hover {
   width: 100%;
 }
 .project a:hover {
-  border-color: red;
+  background-color: #eee ;
+  box-shadow: 0 0 3px #999;
   color: red;
 }
 
