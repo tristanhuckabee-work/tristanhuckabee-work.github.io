@@ -109,12 +109,12 @@ nav a:hover {
   box-shadow: 0 0 3px #999;
   color: red;
 }
-.position a {
+a {
   font-weight: bold;
   text-decoration: none;
   color: black;
 }
-.position a:hover { color: red }
+a:hover { color: red }
 .nested {
   padding-left: 20px;
 }
