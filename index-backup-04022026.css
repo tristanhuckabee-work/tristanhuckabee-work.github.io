@@ -118,3 +118,10 @@ a:hover { color: red }
 .nested {
   padding-left: 20px;
 }
+.archived, .archived .project a {
+  background-color: #fee;
+  color: #655;
+}
+.archived .project a:hover {
+  background-color: #fdd;
+}

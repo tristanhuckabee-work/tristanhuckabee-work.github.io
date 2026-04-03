@@ -7,65 +7,103 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tristan Huckabee</title>
   <link rel="icon" type="image/svg" href="./icon.png">
-  <link rel="stylesheet" href="./index.css">
+  <!-- <link rel="stylesheet" href="./idx-dark.css"> -->
+  <script src="./index.js"></script>
+  <link rel="stylesheet" href="./idx-lite.css">
   <script src="https://kit.fontawesome.com/ac20bc98b6.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <header>
-    <div class="header-left">
+    <div class="roof">
       <h1>Tristan <span class="pop">Huckabee</span></h1>
-      <p>Software Engineer</p>
+      <p>Software Engineer | IT and Automation Technician</p>
     </div>
-    <div class="header-right">
-      <!-- <a href="#contact">CONTACT</a> -->
-      <a href="https://github.com/tristanhuckabee-work" target="_blank">
-        <i class="fab fa-github-square fa-2x"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/tristan-huckabee-60402122a/" target="_blank">
-        <i class="fab fa-linkedin fa-2x"></i>
-      </a>
-      <!-- <a href="./resume.pdf" download>
-        <h2>RESUME</h2>
-      </a> -->
-    </div>
+    <nav>
+      <ul>
+        <li><a href="#current">CURRENT</a></li>
+        <li><a href="#archive">ARCHIVE</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li id="sub-nav">
+          <a href="https://github.com/tristanhuckabee-work" target="_blank">
+            <i class="fab fa-github-square fa-2x"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/tristan-huckabee-60402122a/" target="_blank">
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+          <a href="./resume.pdf" download>
+            RESUME
+          </a>
+        </li>
+      </ul>
+    </nav>
   </header>
   <main>
-    <section id="projects">
+    <!-- <section id="projects">
       <h2>Projects</h2>
       <div class="positions">
         <div class="position">
           <span>
-            <h3>cityPop</h3>
-            <p>A website for uploading and sharing music.</p>
+            <h3>Ticket Manager WIP</h3>
+            <p>An ticket tracking application.</p>
           </span>
           <span class="project">
-            <a href="https://city-pop.onrender.com/" target="_blank">SITE</a>
-            <a href="https://github.com/tristanhuckabee-work/city-pop" target="_blank">GITHUB</a>
+            <a href="" target="_blank">SITE</a>
+            <a href="" target="_blank">GITHUB</a>
           </span>
         </div>
-        <div class="position">
-          <span>
-            <h3>Maze Castle</h3>
-            <p>A website that visualizes simple traversals of randomly generated mazes.</p>
-          </span>
-          <span class="project">
-            <a href="https://maze-castle.onrender.com/" target="_blank">SITE</a>
-            <a href="https://github.com/tristanhuckabee-work/maze-castle" target="_blank">GITHUB</a>
-          </span>
-        </div>
-        <div class="position">
-          <span>
-            <h3>Stoop Sale Invitation</h3>
-            <p>An interactive invitation created in collaboration with a team-mate for the Codedex Summer Hackathon
-              2024.</p>
-          </span>
-          <span class="project">
-            <a href="https://greggy-and-tristanny.vercel.app/" target="_blank">SITE</a>
-            <a href="https://github.com/tristanhuckabee-work/greggy_and_tristanny" target="_blank">GITHUB</a>
-          </span>
-        </div>
-        <!--       
+        <div class="positions">
+          <div class="position">
+            <span>
+              <h3>CLI State Machine Package WIP</h3>
+              <p>A CLI Package that creates a state machine for Digital Forensics</p>
+            </span>
+            <span class="project">
+              <a href="" target="_blank">SITE</a>
+              <a href="" target="_blank">GITHUB</a>
+            </span>
+          </div>
+          <div class="positions">
+            <div class="position">
+              <span>
+                <h3>SMTP Automation Script WIP</h3>
+                <p>Sends email to a list of users and generates a report.</p>
+              </span>
+              <span class="project">
+                <a href="" target="_blank">SITE</a>
+                <a href="" target="_blank">GITHUB</a>
+              </span>
+            </div>
+            <div class="position archived">
+              <span>
+                <h3>cityPop</h3>
+                <p>A website for uploading and sharing music.</p>
+              </span>
+              <span class="project">
+                <a href="https://github.com/tristanhuckabee-work/city-pop" target="_blank">GITHUB</a>
+              </span>
+            </div>
+            <div class="position archived">
+              <span>
+                <h3>Maze Castle</h3>
+                <p>Visualizes simple traversals of randomly generated mazes.</p>
+              </span>
+              <span class="project">
+                <a href="https://maze-castle.onrender.com/" target="_blank">SITE</a>
+                <a href="https://github.com/tristanhuckabee-work/maze-castle" target="_blank">GITHUB</a>
+              </span>
+            </div>
+            <div class="position archived">
+              <span>
+                <h3>Stoop Sale Invitation</h3>
+                <p>Codedex Summer Hackathon
+                  2024.</p>
+              </span>
+              <span class="project">
+                <a href="https://greggy-and-tristanny.vercel.app/" target="_blank">SITE</a>
+                <a href="https://github.com/tristanhuckabee-work/greggy_and_tristanny" target="_blank">GITHUB</a>
+              </span>
+            </div>     
         <div class="position">
           <span>
             <h3></h3>
@@ -76,102 +114,18 @@
             <a href="" target="_blank">GITHUB</a>
           </span>
         </div>
--->
-      </div>
+          </div>
+    </section> -->
+    <section id="current">
+      <h2 class="section-header active">Current Projects</h2>
     </section>
-    <section id="employment">
-      <h2>Employment</h2>
-      <div class="positions">
-        <!-- <div class="position">
-          <span>
-            <h3>AST Spacemobile</h3>
-            <p>Engineering Technician</p>
-            <p>└ 2025 - 2025 : Contracted Solar Systems Technician via <b>Aerotek</b></p>
-          </span>
-          <p>2025 - CURRENT</p>
-        </div> -->
-        <div class="position">
-          <span>
-            <h3>MaMaBu - Freelance Team</h3>
-            <p>Backend Software Engineer</p>
-          </span>
-          <p>2024 - CURRENT</p>
-        </div>
-        <div class="position">
-          <span>
-            <h3>
-              <a href="./letter-of-rec-aa.pdf" download>
-                App Academy
-                <i class="fa-solid fa-file-arrow-down"></i>
-              </a>
-            </h3>
-            <p>Software Engineering Instructor</p>
-          </span>
-          <p>2022 - 2025</p>
-        </div>
-        <div class="position">
-          <span>
-            <h3>Securitas Security Services</h3>
-            <p>Security Supervisor</p>
-          </span>
-          <p>2014 - 2021</p>
-        </div>
-      </div>
+    <section id="archive">
+      <h2 class="section-header">Project Archive</h2>
     </section>
-    <section id="education">
-      <h2>Education</h2>
-      <div class="positions">
-        <div class="position">
-          <span>
-            <h3>Strayer University</h3>
-            <p>├ 2025 :
-              <!-- <a href="./thuckabees-associates.pdf" download> -->
-              AA in Information Technology
-              <!-- <i class="fa-solid fa-file-arrow-down"></i> -->
-              <!-- </a> -->
-            </p>
-            <p>└ 2026 :
-              <!-- <a href=""> -->
-              BS in Information Technology
-            </p>
-            <!-- <i class="fa-solid fa-file-arrow-down"></i> -->
-            <!-- </a> -->
-            <p class="nested">├ Concentration in Software Engineering</p>
-            <p class="nested">├ Minor in Cybersecurity and Digital Forensics</p>
-            <p class="nested">└
-              <a href="./CERT-SCLA.pdf" download>
-                Society of Collegiate Leadership and Achievement
-                <i class="fa-solid fa-file-arrow-down"></i>
-              </a>
-            </p>
-          </span>
-        </div>
-        <div class="position">
-          <span>
-            <h3>
-              <a href=".CERT-TEFL" download>
-                myTEFL
-                <i class="fa-solid fa-file-arrow-down"></i>
-              </a>
-            </h3>
-            <p>Teaching English as a Foreign Language Certification</p>
-          </span>
-          <p>2025</p>
-        </div>
-        <div class="position">
-          <span>
-            <h3>
-              <a href="./CERT-AA.pdf" download>
-                App Academy
-                <i class="fa-solid fa-file-arrow-down"></i>
-              </a>
-            </h3>
-            <p>Fullstack Web Development Bootcamp</p>
-          </span>
-          <p>2022</p>
-        </div>
-      </div>
+    <section id="contact">
+      <h2 class="section-header">Contact Me</h2>
     </section>
+
   </main>
 </body>
 

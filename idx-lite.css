@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+:root {
+  --background: #ffffff;
+  --text-primary: #111111;
+  --text-secondary: #ff0000;
+  --accent-primary: #ffcc00;
+  --accent-secondary: #3333cc;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--background);
+  color: var(--text-primary);
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 3px solid var(--accent-primary);
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+}
+header .roof {
+  padding-left: 15%;
+  text-align: left;
+  width: 100%;
+}
+header .roof p {
+  color: var(--text-secondary);
+  line-height: 10px;
+  margin-bottom: 15px;;
+}
+header nav {width: 100%}
+header nav ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 3px 15%;
+}
+header a {
+  text-decoration: none;
+  color: var(--accent-secondary);
+  font-weight: 600;
+}
+header a:hover {
+  text-decoration: none;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+header nav ul li a.active {
+  color: var(--text-secondary);
+}
+section {
+  padding: 0 15%;
+  background-color: red;
+  height: 100vh;
+}
+#archive {
+  background-color: blue;
+}
+section h2 {padding-top: 110px}
